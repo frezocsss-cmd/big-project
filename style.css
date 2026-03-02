@@ -1,0 +1,867 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  padding-top: 150px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+}
+.lola-1 {
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 7px 30px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+  }
+}
+.son {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 550px;
+}
+.son-2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  select {
+    background-color: #000000;
+    border: none;
+  }
+}
+.lola-2 {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sister-1 {
+  display: flex;
+  gap: 40px;
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #262626;
+  }
+}
+.sister-1 a:hover {
+  border-bottom: 1px solid #000000;
+  scale: 1.2;
+}
+.sister-2 {
+  margin-right: 250px;
+}
+.sister-3 {
+  display: flex;
+  gap: 20px;
+}
+.lola-3 {
+  height: 56px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #262626;
+  }
+}
+.lola-3 a:hover {
+  color: #d0021b;
+}
+.mimi {
+  height: 758px;
+  background-image: url(images/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.glpg {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  h1 {
+    color: white;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 46px;
+    line-height: 55.2px;
+    letter-spacing: 0.92px;
+    text-align: center;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 67px;
+  }
+}
+.btn {
+  background-color: white;
+  padding: 12px 79px;
+  font-family: Maison Neue;
+  font-weight: 400;
+  font-style: Book;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 1.4px;
+  text-align: center;
+  border: none;
+  margin-left: 170px;
+}
+.glass {
+  height: 534px;
+  padding-top: 90px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+.father {
+  display: flex;
+  gap: 30px;
+}
+.box {
+  text-align: center;
+  p {
+    margin-top: 15px;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  p:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+  }
+  img {
+    width: 212px;
+    height: 295px;
+  }
+}
+.mom {
+  display: flex;
+  gap: 65px;
+  img {
+    width: 430px;
+    height: 534px;
+    position: relative;
+  }
+}
+.gugu-1 {
+  position: absolute;
+  top: 1650px;
+  left: -50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-left: 170px;
+    color: white;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  button:active {
+    color: white;
+    background-color: black;
+  }
+}
+.gugu-2 {
+  position: absolute;
+  top: 1650px;
+  left: 430px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-left: 170px;
+    color: white;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  button:active {
+    color: white;
+    background-color: black;
+  }
+}
+.gugu-3 {
+  position: absolute;
+  top: 1650px;
+  right: 90px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-left: 170px;
+    color: white;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  button:active {
+    color: white;
+    background-color: black;
+  }
+}
+.media {
+  margin-bottom: 90px;
+}
+.s1s1 {
+  background-image: url(images/gulustep.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1521px;
+  height: 281px;
+  margin-top: 90px;
+  position: relative;
+}
+.p1p1 {
+  position: absolute;
+  top: 85px;
+  left: 470px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+}
+.f1f1 {
+  margin-bottom: 71px;
+}
+.love {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.google {
+  display: flex;
+  position: relative;
+  gap: 50px;
+  img {
+    width: 282px;
+    height: 420px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+  }
+}
+.fa-chevron-right {
+  position: absolute;
+  top: 200;
+  right: 0;
+}
+.poki {
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: start;
+  }
+}
+.trr {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #262626;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #262626;
+  }
+}
+.grax {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+}
+.peep {
+  margin-top: 221px;
+  i {
+    margin-bottom: 15px;
+    margin-top: 40px;
+  }
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    width: 406px;
+    height: 100px;
+  }
+  .vs {
+    margin-top: 40px;
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+  }
+}
+.feep {
+  img {
+    width: 530px;
+    height: 695px;
+  }
+}
+.space {
+  margin-top: 80px;
+}
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bolla-1 {
+  margin-top: 90px;
+  align-items: center;
+  text-align: center;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 505px;
+    height: 626px;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+  }
+}
+.bolla-2 {
+  margin-top: 90px;
+  text-align: center;
+
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 24px;
+    line-height: 33.24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 505px;
+    height: 626px;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+  }
+}
+.mars {
+  margin-top: 90px;
+}
+.won {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 15px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    margin-top: 10px;
+  }
+}
+.live {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  gap: 100px;
+  img {
+    width: 225px;
+    height: 225px;
+  }
+  i {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+}
+.donk {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.jiji-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    text-align: center;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #262626;
+  }
+}
+.jiji-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    text-align: center;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #262626;
+  }
+}
+.jiji-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.42px;
+    text-align: center;
+  }
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #262626;
+  }
+}
+footer {
+  height: 400px;
+  background-color: #f5f4f4;
+  padding: 60px 90px 16px 90px;
+}
+.gips {
+  padding-bottom: 20px;
+  display: flex;
+  .input {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 388px;
+    height: 53px;
+    padding-top: 18px;
+    padding-right: 15px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    border: 1px solid #dddbdc;
+  }
+  .chumo {
+    width: 52px;
+    border: none;
+    height: 53px;
+    margin-top: 19.5px;
+    color: white;
+    margin-right: 30px;
+    background-color: #000000;
+    padding-top: 14.5px;
+    padding-right: 14px;
+    padding-bottom: 14.5px;
+    padding-left: 14px;
+  }
+}
+.l-1 {
+  width: 194px;
+  height: 155px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    color: #737373;
+  }
+}
+.l-2 {
+  width: 194px;
+  height: 280px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    color: #737373;
+  }
+}
+.l-3 {
+  width: 194px;
+  height: 182px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    color: #737373;
+  }
+}
+.l-4 {
+  width: 194px;
+  height: 209px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h2 {
+    font-family: Maison Neue;
+    font-weight: 600;
+    font-style: Demi;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 1.4px;
+    color: #737373;
+  }
+}
+.chips {
+  height: 80px;
+  color: #f5f4f4;
+  p {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #737373;
+    margin-top: 40px;
+  }
+}
+.karusel {
+  display: flex;
+  justify-content: space-between;
+  a {
+    font-family: Maison Neue;
+    font-weight: 400;
+    font-style: Book;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #737373;
+  }
+}
